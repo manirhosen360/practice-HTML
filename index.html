@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML Practice</title>
+    <link rel="icon" type="image/png" href="Images/Screenshot 2026-01-05 at 7.36.06 PM.png"
+</head>
+<body>
+    <!--Semantic Header-->
+    <header>
+    <h1>Welcome to My Website</h1>
+    <p>
+        <small>Learning HTML step by step</small>
+    </p>
+
+    <!--Navigation Using Anchor tags-->
+    <nav>
+        <a href="dcuments/Resume-1.pdf" target="_blank">About</a>
+        <a href="#skills">Skills</a>
+        <a href="https://wa.me/+6583724450" target="_blank">Contact</a>
+        <a href="https://google.com" target="_blank">Google</a>
+    </nav>
+    <hr>
+    </header>
+
+    <!--Main Content-->
+    <main>
+
+        <!--about Section-->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                My name is <b>Manir Hosen</b>. I am learning <i>HTML</i> and I want to become a 
+                <strong>web developer</strong>. 
+            </p>
+
+            <p>
+                HTML is a <span>Markup language</span> used to create web page.<br>
+                Today I learned many tags and this is my practice demo.
+            </p>
+
+            <!--Images-->
+            <h3>My Images</h3>
+
+            <!--Online Image-->
+            <img src="https://www.shutterstock.com/image-vector/creative-modern-letter-u-logo-600nw-2657043749.jpg" alt="Online Image">
+
+            <!--Local Images-->
+            <img src="Images/WhatsApp Image 2026-01-03 at 14.44.34.jpeg" alt="My Photo" width="300">
+            <img src="Images/WhatsApp Image 2026-01-03 at 14.44.35.jpeg" alt="My Photo" width="250">
+        </section>
+
+        <hr>
+
+        <!--Skill Section-->
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <!--List Tags-->
+            <h3>Programming Skills</h3>
+            <ul>
+                <li>HTML (Beginner)</li>
+                <li>CSS (Learning)</li>
+                <li>Javascript (Next Step)</li>
+            </ul>
+
+            <h3>Other Skills</h3>
+            <ol>
+                <li>Basic IT knowledge</li>
+                <li>Problem solving</li>
+                <li>Learning mindset</li>
+            </ol>
+
+            <!--Button-->
+            <button>Click Me</button>
+        </section>
+
+        <hr>
+
+        <!--Contact Section-->
+        <section id="contact">
+            <h2>Login Form</h2>
+
+            <form>
+                <!--Input Types-->
+                <label>Username:</label><br>
+                <input type="text" placeholder="Write username"><br><br>
+
+                <label>Password:</label><br>
+                <input type="password" placeholder="Write password"><br><br>
+
+                <label>Email:</label><br>
+                <input type="email" placeholder="Write email"><br><br>
+
+                <label>Gender:</label><br>
+                <select>
+                    <option>Select</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select><br><br>
+                <input type="checkbox">Remember Me<br><br>
+
+                <!--Buttons-->
+                <input type="submit" value="Login">
+                <input type="reset" value="Clear">
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!--Education details-->
+    <section id="Education">
+        <h2>Academic Background</h2>
+
+        <form>
+            <label>Exam Name:</label>
+            <select>
+                <option>Select</option>
+                <option>JSC</option>
+                <option>SSC</option>
+                <option>HSC</option>
+                <option>Bachelor</option>
+                <option>Master</option>
+            </select><br><br>
+
+            <label for="start">Passing Year:</label>
+            <input type="date" id="start" name="trip-start"><br><br>
+
+            <label>Institution Name:</label>
+            <input type="text" placeholder="Type a name"><br><br>
+
+            <label>Result GPA:</label>
+            <input type="number" placeholder="GPA"><br><br>
+
+            <!--Buttons-->
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+        <h2><i><b>The End</b></i></h2><br><br>
+        <small>Manir</small>
+
+    <!--Semantic Footer-->
+    <footer>
+        <p>
+            &copy; 2026 Manir Hosen <br>
+            <small>HTML Practice Project</small>
+        </p>
+    </footer>
+
+</body>
+</html>
